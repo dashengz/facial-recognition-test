@@ -5,7 +5,7 @@ A simple facial recognition app using [Kairos Android SDK](https://github.com/ka
 - Let the user register (enroll) her/his face, and if needed, 
 register multiple times to increase recognition accuracy;
 
-> Only one admin is supported so far.
+    > Only one admin is supported so far.
 
 - If the admin changes, the user can reset the admin data and register new faces;
 - Access button can take the user to the Secret screen, only when the registered admin's face is detected.

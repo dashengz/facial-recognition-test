@@ -9,6 +9,7 @@ register multiple times to increase recognition accuracy;
 
 - If the admin changes, the user can reset the admin data and register new faces;
 - Access button can take the user to the Secret screen, only when the registered admin's face is detected.
+
 - Toast messages will show to give users alerts/notifications.
 
 ### How to Use:
@@ -18,7 +19,7 @@ register multiple times to increase recognition accuracy;
 myKairos = new Kairos();
 
 String app_id = "app_id"; // replace the "app_id" with your own app_id
-String api_key = "api_key"; // replace the "app_id" with your own api_key
+String api_key = "api_key"; // replace the "api_key" with your own api_key
 
 myKairos.setAuthentication(this, app_id, api_key);
 ```
